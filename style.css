@@ -1,0 +1,157 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+  background-color: #ffe0ea;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+  color: #fc5185;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: "poppins";
+  color: #ef3167;
+}
+
+.menu {
+  float: right;
+}
+
+img {
+  padding: 5%;
+  border-radius: 100px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffd0df;
+  z-index: 1;
+  border-bottom: 1px solid #d47ec9;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #ef3167;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "poppins";
+  color: #ef3167;
+}
+
+h2 {
+  font-family: "poppins";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ef3167;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+#contact {
+  background-color: #fdc5d6;
+  padding: 50px 00px 50px 0px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "poppins";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #d47ec9;
+  width: 100%;
+  line-height: 50px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
